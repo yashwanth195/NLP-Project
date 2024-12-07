@@ -64,7 +64,7 @@ if __name__ == '__main__':
                              shuffle=False,
                              num_workers=2,
                              pin_memory=False)
-    numberOfEpochs = 8
+    numberOfEpochs = 30
     learningRate = 1e-4
     
     lossFunction = MaskedSoftmaxCELoss()
